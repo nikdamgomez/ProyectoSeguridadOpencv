@@ -15,7 +15,7 @@ app = Flask(__name__)
 def gen_frames():
 
     # Load your trained model
-    model = YOLO("runs/detect/train3/weights/best.pt")  # Update path if needed
+    model = YOLO("runs/detect/train5/weights/best.pt")  # Update path if needed
 
 
     camera = cv2.VideoCapture(0)

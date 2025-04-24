@@ -1,0 +1,15 @@
+names:
+- helmet
+- not_helmet
+- not_reflective
+- reflective
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: safety-vest---v4-he0au
+  url: https://universe.roboflow.com/prototipo-rro16/safety-vest---v4-he0au/dataset/1
+  version: 1
+  workspace: prototipo-rro16
+test: ../test/images
+train: ../train/images
+val: ../valid/images
